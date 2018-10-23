@@ -6,6 +6,19 @@
   clear:both;
 }
 
+.gap{
+  vertical-align: top;
+}
+
+.inner{
+width: 1100px;
+margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
 .header-box{
   background-color: white;
   height: 78px;
@@ -16,8 +29,6 @@
 }
 
 .header-inner{
-  width: 1100px;
-  margin: 0 auto;
   padding: 15px 0;
 }
 
@@ -27,6 +38,7 @@
 }
 
 .contact-box{
+  transition:all 0.3s;
   background-color: #74cfae;
   color: white;
   font-size: 12px;
@@ -35,9 +47,11 @@
 }
 
 .contact-box:hover{
-  transition:all 0.3s;
   color: #333;
-  cursor: pointer;
+}
+
+.main-box{
+  padding-top: 78px;
 }
 
 .theme-box{
@@ -45,8 +59,6 @@
 }
 
 .theme-box-inner{
-  width: 1100px;
-  margin: 0 auto;
   padding: 250px 0;
   text-align: center;
   font-family: Raleway;
@@ -56,7 +68,7 @@
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .theme-sub_title{
@@ -69,13 +81,13 @@
 }
 
 .we-can-box-inner{
-  width: 1100px;
-  margin: 0 auto;
   padding-top: 50px;
 }
 
 .iphone{
   float: left;
+  width: 330px;
+  text-align: right;
 }
 
 .we-can-block{
@@ -97,53 +109,50 @@
   font-family: Lato;
 }
 
-.OUR-LATEST-box{
+.our-latest-box{
   background-color:#f2f2f2;
 }
 
-.OUR-LATEST-box-inner{
-  width: 1100px;
-  margin: 0 auto;
+.our-latest-box-inner{
   padding: 60px 0 70px 0;
 }
 
-.OUR-LATEST_title{
+.our-latest_title{
   text-align: center;
   font-size: 24px;
   opacity: 0.6;
   font-family: Raleway;
 }
 
-.OUR-LATEST_pictures{
-  margin: 40px 0 90px 0;
+.our-latest_pictures{
+  padding: 40px 0 90px 0;
 }
 
-.OUR-LATEST-top_pictures{
-  margin-bottom: 80px;
-}
-
-.OUR-LATEST_img{
+.our-latest_img{
+  transition : all 0.3s;
   float: left;
   margin-left: 100px;
   opacity: 0.7;
 }
 
-.OUR-LATEST_img:hover{
-  transition : all 0.3s;
+.our-latest_img:hover{
   opacity: 1;
-  cursor: pointer;
 }
 
-.OUR-LATEST_img:first-child{
+.our-latest_img:nth-child(-n+3){
+  margin-bottom: 80px;
+}
+
+.our-latest_img:nth-child(3n-2){
   margin-left: 0;
 }
 
-.OUR-LATEST_foot{
+.our-latest_foot{
   text-align: center;
   line-height: 20px;
 }
 
-.OUR-LATEST_text{
+.our-latest_text{
   text-align: center;
   display: inline-block;
   width: 460px;
@@ -151,7 +160,8 @@
   opacity: 0.6;
 }
 
-.Email-btn{
+.email-btn{
+  transition:all 0.3s;
   background-color: #74cfae;
   color: white;
   display: inline-block;
@@ -161,10 +171,8 @@
   vertical-align: top;
 }
 
-.Email-btn:hover{
-  transition:all 0.3s;
+.email-btn:hover{
   color:#333;
-  cursor: pointer;
 }
 
 .round-box{
@@ -172,9 +180,8 @@
 }
 
 .round-box-inner{
-  width: 1100px;
-  margin: 0 auto;
   padding: 70px 0 100px 0;
+  text-align: center;
 }
 
 .round-box_title{
@@ -185,15 +192,19 @@
   font-family: Raleway;
 }
 
+
+.round-all_img{
+  display:inline-block;
+}
+
 .round-box_img{
   float:left;
-  text-align: center;
-  padding-left: 180px;
+  margin-left: 180px;
   color: white;
 }
 
 .round-box_img:first-child{
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .round_text{
@@ -201,19 +212,18 @@
   padding-top: 10px;
 }
 
-.SNS-box{
+.sns-box{
   background-color: #f2f2f2;
 }
 
-.SNS-box-inner{
-  width: 1100px;
-  margin: 0 auto;
+.sns-box-inner{
   padding: 200px 0;
   display: flex;
   justify-content:center;
 }
 
 .webfont{
+  transition: all 0.3s;
   width: 185px;
   padding: 25px 0;
   text-align: center;
@@ -221,8 +231,6 @@
   }
 
 .webfont:hover{
-  transition: all 0.3s;
-  cursor: pointer;
   background-color: white;
 }
 
@@ -231,13 +239,11 @@
 }
 
 .footer-box-inner{
-  width: 1100px;
-  margin: 0 auto;
+  padding: 20px 0 25px 0;
 }
 
-.footer-box_test{
+.footer-box_text{
   color:white;
   font-size: 12px;
   text-align: right;
-  padding: 20px 0 25px 0;
 }
