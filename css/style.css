@@ -2,6 +2,7 @@
 
 img{
   vertical-align: top;
+  max-width: 100%;
 }
 
 a{
@@ -97,7 +98,7 @@ a{
 .we-can-block{
   color:white;
   text-align: center;
-  width: 650px;
+  max-width: 650px;
   float: right;
 }
 
@@ -159,7 +160,7 @@ a{
 .our-latest_text{
   text-align: center;
   display: inline-block;
-  width: 460px;
+  max-width: 460px;
   font-family: Lato;
   opacity: 0.6;
 }
@@ -266,6 +267,7 @@ a{
   float: none;
   margin: 0 auto;
   text-align: center;
+  max-width: 100%;
 }
 
 .we-can-block{
@@ -297,14 +299,14 @@ a{
   margin-bottom: 0;
 }
 
-.our-latest_img:nth-child(3n) {
+.our-latest_img:nth-child(3) {
   margin-bottom: 80px;
 }
 
 .our-latest_text{
   display: block;
-  width: 780px;
   margin: 0 auto;
+  max-width: 740px;
 }
 
 .email-btn{
@@ -374,7 +376,7 @@ a{
 
 .theme-box-inner{
   padding: 160px 0 130px 0;
-  width: 350px;
+  max-width:300px;
 }
 
 .theme-main_title{
@@ -382,11 +384,11 @@ a{
 }
 
 .we-can-block{
-  width: 297px;
+  max-width: 297px;
 }
 
 .our-latest_text{
-  width: 270px;
+  max-width:270px;
 }
 
 .sns-box-inner{
