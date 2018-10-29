@@ -299,8 +299,12 @@ a{
   margin-bottom: 0;
 }
 
-.our-latest_img:nth-child(3) {
+.our-latest_img:nth-child(3n) {
   margin-bottom: 80px;
+}
+
+.our-latest_img:nth-child(3n):last-child{
+  margin-bottom: 0;
 }
 
 .our-latest_text{
